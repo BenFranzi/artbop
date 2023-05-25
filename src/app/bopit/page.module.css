@@ -1,0 +1,52 @@
+.main {
+    height: calc(100vh - 128px);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 35rem;
+    scroll-snap-type: y mandatory;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.segment {
+    /*height: 50vh;*/
+}
+
+
+.sourceHeading {
+    color: darkblue;
+}
+
+
+.artistHeading {
+    color: deeppink;
+}
+
+.loadingHeading {
+    margin: auto;
+}
+
+.featureContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.imageHolder {
+    flex: 1;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 16px;
+}
